@@ -1,0 +1,32 @@
+#include <stdio.h>
+
+void add(int x)
+{
+    if (x%2 == 0)
+        printf("The number is even\n");
+        
+    else
+        printf("The number is odd\n");
+}
+int main()
+{
+    int a, b;
+    
+    printf("Enter a number: ");
+    scanf("%d", &a);
+    
+    add(a);
+    
+    getchar();
+    
+    printf("\nEnter a key to execute the second command\n");
+    
+    getchar();
+    
+    printf("Enter another number: ");
+    scanf("%d", &b);
+    
+    add(b);
+    
+    
+}
